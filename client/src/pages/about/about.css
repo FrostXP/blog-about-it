@@ -1,0 +1,83 @@
+.about {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://images.unsplash.com/photo-1568301956237-25a54f5f0d21?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YmFjayUyMGdyb3VuZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60");
+  background-size: cover;
+}
+.aboutTitle {
+  font-size: 50px;
+}
+.aboutForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutForm > label {
+  margin: 10px 0;
+}
+
+.aboutInput {
+  padding: 10px;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.aboutInput:focus {
+  outline: none;
+}
+
+.aboutButton {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: lightcoral;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+}
+.aboutButton:disabled {
+  cursor: not-allowed;
+  background-color: rgb(54, 50, 48);
+}
+
+.aboutRegisterButton {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background-color: teal;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  color: white;
+  border-radius: 10px;
+}
+.pTag {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  font-family: "Varela Round", Arial, Helvetica;
+}
+.aboutMain-heading {
+  text-align: center;
+  padding: 15px;
+}
+.aboutCard {
+  border-radius: 10px;
+}
+.aboutH6 {
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 1.5px;
+}

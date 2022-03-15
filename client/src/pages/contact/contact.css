@@ -1,0 +1,70 @@
+.contact {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://images.unsplash.com/photo-1455849318743-b2233052fcff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80");
+  background-size: cover;
+}
+.contactTitle {
+  font-size: 50px;
+}
+.contactForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contactForm > label {
+  margin: 10px 0;
+}
+
+.contactInput {
+  padding: 10px;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.contactInput:focus {
+  outline: none;
+}
+
+.contactButton {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: lightcoral;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+}
+.contactButton:disabled {
+  cursor: not-allowed;
+  background-color: rgb(54, 50, 48);
+}
+
+.contactRegisterButton {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background-color: teal;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  color: white;
+  border-radius: 10px;
+}
+.contactSubMsg1 {
+  font-size: 50px;
+  font-family: Lora, serif;
+}
+.contactSubMsg2 {
+  font-size: 25px;
+}

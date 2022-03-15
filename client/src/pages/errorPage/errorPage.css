@@ -1,0 +1,15 @@
+.errorSubMsg1 {
+  font-size: 50px;
+  font-family: Lora, serif;
+}
+.errorSubMsg2 {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+.errBtn {
+  border-radius: 3px;
+}
+.errorImg {
+  width: 250px;
+  border-radius: 50px;
+}
