@@ -1,9 +1,5 @@
 # blog-about-it
-a brief description of what your code does;
-instructions for installing your code;
-what other code needs to be installed for it to work;
-one or two examples of how to invoke your code;
-optionally: who wrote the code, how to cite it, and who to contact for help.
-
-This is a Blog APP Built to using the MERN stack 
-Blog App is 
+This is a FullStack Blog APP Built using the MERN stack 
+Blog App is built fully Incorparating C.R.U.D. operations 
+install node modules for both client side and server side of app (npm install)
+once node module has been installed run code by using npm start for both server and clients side of the apps 
